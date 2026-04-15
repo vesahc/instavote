@@ -20,5 +20,5 @@ commonAnnotations:
 configMapGenerator:
   - name: vote
     literals:
-      - OPTION_A=FluxCD
+      - OPTION_A=WebhookTest
       - OPTION_B=ArgoCD

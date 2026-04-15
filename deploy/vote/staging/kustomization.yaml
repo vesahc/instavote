@@ -20,5 +20,5 @@ commonAnnotations:
 configMapGenerator:
   - name: vote
     literals:
-      - OPTION_A=STAGING
-      - OPTION_B=DEV
+      - OPTION_A=FluxCD
+      - OPTION_B=ArgoCD

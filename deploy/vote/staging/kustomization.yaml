@@ -9,7 +9,7 @@ namespace: instavote
 images:
 - name: schoolofdevops/vote
   newName: okimaw/vote
-  newTag: v5 # {"$imagepolicy": "flux-system:vote:tag"}
+  newTag: main-27cb18c5-1776289626 # {"$imagepolicy": "flux-system:vote:tag"}
 replicas:
 - name: vote
   count: 4
